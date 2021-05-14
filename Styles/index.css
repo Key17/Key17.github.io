@@ -52,25 +52,25 @@ nav li:hover{
 /* Social media */
 
 #insta{
-	font-size: 1650%;
+	font-size: 1350%;
 	color: purple;
 	transition: 1s;
 }
 
 #face{
-	font-size: 1650%;
+	font-size: 1350%;
 	color: blue;
 	transition: 1s;
 }
 
 #insta:hover{
-	font-size: 1800%;
+	font-size: 1450%;
 	color: #F782E7;
 	transition: 1s;
 }
 
 #face:hover{
-	font-size: 1800%;
+	font-size: 1450%;
 	color: lightblue;
 }
 
