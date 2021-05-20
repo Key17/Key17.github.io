@@ -1,0 +1,56 @@
+body{
+  background-color: #FA9C84;
+}
+
+.video video{
+  width: 50%;
+  display: inline-block;
+  margin: 5% 25% 5% 25%;
+  border-radius: 10%;
+}
+
+h1{
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  font-size: 400%;
+  padding-top: 3%;
+  color: yellow;
+}
+
+h2{
+  font-family: 'Pattaya', sans-serif;
+  font-size: 240%;
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+
+/* navbar section */
+
+.nav-link{
+	font-family: 'Montez', cursive;
+	font-size: 1.8rem;
+}
+
+.navbar-brand{
+	font-family: 'Montez', cursive;
+	font-size: 3rem;
+	padding: 1% 3% 1% 0;
+}
+
+nav li{
+	transition: 0.8s;
+}
+
+nav li:hover{
+	 background-color:  #ff4c68;
+	 border-radius: 15px;
+}
+
+/* section */
+
+section{
+  margin-left: 1%;
+}
