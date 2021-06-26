@@ -1,7 +1,7 @@
 h1{
   text-align: center;
   margin: 5% 0 3%;
-  font-family: 'Pattaya', sans-serif;
+  font-family: 'Viaoda Libre', cursive;
   font-size: 400%;
   color: #87853b;
 }
@@ -17,7 +17,7 @@ h2{
 footer{
   padding-top: 8%;
   text-align: center;
-  font-family: 'Pattaya'
+  font-family: 'Viaoda Libre', cursive;
 }
 
 h3{
@@ -61,7 +61,7 @@ h3{
 
 .man, .woman, a{
   padding-top: 10%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Viaoda Libre', cursive;
 }
 
 a:hover{
