@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.link-list li{
+    list-style: none;
+}
+
+.toggler{
+    position: absolute;
+    display: none;
+    top: 2rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggler .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media(max-width:600px){
+    .toggler{
+        display: flex;
+    }
+
+    .link-list{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link-list ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .link-list li{
+        text-align: center;
+        margin: .3rem;
+        background-color: aqua;
+    }
+
+    .link-list a{
+        display: block;
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    .toggled.active{
+        display: flex;
+    }
+}
+
