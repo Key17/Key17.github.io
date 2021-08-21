@@ -247,7 +247,7 @@ img{
         position: absolute;
         display: flex;
         padding: 40%;
-        background-color: rgb(112, 0, 163);
+        background-color: rgba(238, 255, 0, 0.801);
         box-shadow: 4px 4px 10px white;
     }
     
