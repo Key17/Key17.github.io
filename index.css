@@ -106,7 +106,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 5%;
-    background-color: rgba(165, 253, 253, 0.801);
+    background-color: rgba(238, 255, 0, 0.801);
     box-shadow: 4px 4px 10px white;
     transition: 0.5s;
 }
@@ -118,7 +118,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 5%;
-    background-color: rgba(165, 253, 253, 0.801);
+    background-color: rgba(238, 255, 0, 0.801);
     box-shadow: -4px 4px 10px white;
     transition: 0.5s;
 }
@@ -130,7 +130,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 7%;
-    background-color: rgb(112, 0, 163);
+    background-color: rgba(238, 255, 0, 0.801);
     box-shadow: -4px 4px 10px white;
     border-radius: 50%;
     transition: 0.5s;
@@ -147,7 +147,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 5%;
-    background-color: rgb(112, 0, 163);
+    background-color: rgba(238, 255, 0, 0.801);
     box-shadow: 4px 4px 10px white;
     border-radius: 50%;
     transition: 0.5s;
