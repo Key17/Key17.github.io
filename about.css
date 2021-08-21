@@ -1,0 +1,159 @@
+
+body{
+    background-color: blueviolet;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: blueviolet;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li{
+    margin-top: .5%;
+    padding: 14px 16px;
+    text-align: center;
+    transition: 0.5s;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 23px;
+    transition: 0.4s;
+    font-family: 'Style Script', cursive;
+}
+
+.navbar ul li:hover{
+    padding: 16px 18px;
+    background-color: red;
+    box-shadow: 5px 5px 5px white;
+    border: #fff dashed 1px;
+}
+
+#active{
+    background-color: #E1AD01;
+    color: white;
+}
+
+#active:hover{
+    padding: 16px 18px;
+    
+}
+
+h1, h2{
+    font-family: 'Hohmlet', serif;
+    color: #fff;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.45rem;
+    color: #E1AD01;
+}
+
+main{
+    margin: 2% 20% 5%;
+}
+
+main p{
+    font-size: 15.5px;
+    font-family: Arial;
+    line-height: 30px;
+}
+
+footer{
+    margin-bottom: 5%;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    color: #E1AD01;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* mobile navbar */
+
+.link-list li{
+    list-style: none;
+}
+
+.toggler{
+    position: absolute;
+    display: none;
+    top: 2rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggler .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media(max-width:600px){
+    .toggler{
+        display: flex;
+    }
+
+    .link-list{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link-list ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .link-list li{
+        text-align: center;
+        margin: .3rem;
+        background-color: aqua;
+    }
+
+    .link-list a{
+        display: block;
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    .toggled.active{
+        display: flex;
+    }
+}
+
