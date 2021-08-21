@@ -155,5 +155,9 @@ footer a{
     .toggled.active{
         display: flex;
     }
+    
+    main{
+    margin: 2% 10% 5% 0;
+}
 }
 
