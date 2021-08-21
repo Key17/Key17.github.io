@@ -30,7 +30,7 @@ body{
     font-size: 23px;
     text-decoration: none;
     padding: 14px 16px;
-    color: white;
+    color: rgba(255, 0, 0, 0.925);
     transition: 0.4s;
     font-family: 'Style Script', cursive;
 }
