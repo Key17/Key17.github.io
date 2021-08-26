@@ -4,7 +4,7 @@
 
 body{
     overflow: hidden;
-    background-color: rgba(165, 253, 253, 0.801);
+    background-color: rgb(0, 247, 255);
 }
 
 .navbar{
@@ -91,7 +91,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 20% 34%;
-    background-color: rgba(165, 253, 253, 0.801);
+    background-color: rgba(0, 78, 180, 0.801);
     box-shadow: 4px 4px 10px white;
 }
 
@@ -106,7 +106,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 5%;
-    background-color: rgba(238, 255, 0, 0.801);
+    background-color: rgba(1, 94, 216, 0.801);
     box-shadow: 4px 4px 10px white;
     transition: 0.5s;
 }
@@ -118,7 +118,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 5%;
-    background-color: rgba(238, 255, 0, 0.801);
+    background-color: rgba(1, 94, 216, 0.801);
     box-shadow: -4px 4px 10px white;
     transition: 0.5s;
 }
@@ -130,7 +130,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 7%;
-    background-color: rgba(238, 255, 0, 0.801);
+    background-color: rgba(1, 94, 216, 0.801);
     box-shadow: -4px 4px 10px white;
     border-radius: 50%;
     transition: 0.5s;
@@ -147,7 +147,7 @@ main h2{
     position: absolute;
     display: flex;
     padding: 5%;
-    background-color: rgba(238, 255, 0, 0.801);
+    background-color: rgba(1, 94, 216, 0.801);
     box-shadow: 4px 4px 10px white;
     border-radius: 50%;
     transition: 0.5s;
@@ -210,7 +210,7 @@ img{
         margin: 0;
         padding: 0;
         display: flex;
-        background-color: aqua;
+        background-color: rgb(37, 106, 255);
     }
 
     img{
